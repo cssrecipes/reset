@@ -1,0 +1,8 @@
+.reset-Input {
+  border: none;
+}
+
+.reset-Input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}

@@ -1,6 +1,10 @@
 # reset
 
-Class to reset some styles on some elements.
+> Reset for some elements
+
+## Install
+
+		npm install cssrecipes-defaults
 
 ## Available classes
 
@@ -9,3 +13,8 @@ Class to reset some styles on some elements.
 ### `.reset-Input`
 
 ### `.reset-List`
+
+
+## [Changelog](CHANGELOG.md)
+
+## [License](LICENSE-MIT)

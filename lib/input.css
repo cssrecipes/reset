@@ -1,0 +1,8 @@
+.rcp-ResetInput {
+  border: none;
+}
+
+.rcp-ResetInput::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}

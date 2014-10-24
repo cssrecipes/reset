@@ -2,23 +2,32 @@
   "name": "cssrecipes-reset",
   "version": "0.1.0",
   "description": "Reset for some elements",
-  "main": "index.css",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cssrecipes/reset.git"
-  },
   "keywords": [
     "css",
     "cssrecipes",
     "reset"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cssrecipes/reset.git"
+  },
   "author": "MoOx <m@moox.io>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cssrecipes/reset/issues"
+  "main": "index.css",
+  "style": "index.css",
+  "files": [
+    "lib",
+    "index.css"
+  ],
+  "devDependencies": {
+    "cssnext": "^0.4.0"
   },
-  "homepage": "https://github.com/cssrecipes/reset"
+  "scripts": {
+    "setup": "npm install && mkdir -p build",
+    "preprocess": "cssnext index.css build/index.css",
+    "build": "npm run setup && npm run preprocess",
+    "preprocess-test": "cssnext test/test.css build/test.css",
+    "build-test": "npm run setup && npm run preprocess-test",
+    "test": "npm run build-test"
+  }
 }

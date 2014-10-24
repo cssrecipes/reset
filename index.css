@@ -1,3 +1,3 @@
-@import "./button.css";
-@import "./input.css";
-@import "./list.css";
+@import "./lib/button.css";
+@import "./lib/input.css";
+@import "./lib/list.css";

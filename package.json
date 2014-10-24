@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/cssrecipes/reset.git"
   },
-  "author": "MoOx <m@moox.io>",
+  "author": "Maxime Thirouin",
   "license": "MIT",
   "main": "index.css",
   "style": "index.css",

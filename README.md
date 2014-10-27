@@ -18,11 +18,11 @@ Import `index.css` (or just files you want).
 
 ## Available classes
 
-### `.rcp-ResetButton`
+### `.cssr-ResetButton`
 
-### `.rcp-ResetInput`
+### `.cssr-ResetInput`
 
-### `.rcp-ResetList`
+### `.cssr-ResetList`
 
 ---
 
@@ -45,10 +45,12 @@ Basic visual tests are in `test/index.html`.
 
 Work on a branch, install dev-dependencies, respect coding style & run tests before submitting a bug fix or a feature.
 
-		$ git clone https://github.com/cssrecipes/reset.git
-		$ git checkout -b patch-1
-		$ npm install
-		$ npm test
+```sh
+$ git clone https://github.com/cssrecipes/reset.git
+$ git checkout -b patch-1
+$ npm install
+$ npm test
+```
 
 ## [Changelog](CHANGELOG.md)
 

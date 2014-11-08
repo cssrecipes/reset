@@ -1,8 +1,8 @@
-.cssr-ResetInput {
+.r-ResetInput {
   border: none;
 }
 
-.cssr-ResetInput::-moz-focus-inner {
+.r-ResetInput::-moz-focus-inner {
   padding: 0;
   border: 0;
 }

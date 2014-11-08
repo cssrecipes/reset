@@ -1,4 +1,4 @@
-.cssr-ResetButton {
+.r-ResetButton {
   border: none;
   margin: 0;
   padding: 0;
@@ -23,7 +23,7 @@
 }
 
 /* Remove excess padding and border in Firefox 4+ */
-.cssr-ResetButton::-moz-focus-inner {
+.r-ResetButton::-moz-focus-inner {
   border: 0;
   padding: 0;
 }

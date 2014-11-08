@@ -18,11 +18,11 @@ Import `index.css` (or just files you want).
 
 ## Available classes
 
-### `.cssr-ResetButton`
+### `.r-ResetButton`
 
-### `.cssr-ResetInput`
+### `.r-ResetInput`
 
-### `.cssr-ResetList`
+### `.r-ResetList`
 
 ---
 

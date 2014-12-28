@@ -1,5 +1,6 @@
 .r-ResetInput {
   border: none;
+  font-family: inherit;
 }
 
 .r-ResetInput::-moz-focus-inner {

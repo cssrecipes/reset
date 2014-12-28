@@ -1,3 +1,7 @@
+# 0.5.0 - 2014-12-28
+
+- inputs now inherit font-family
+
 # 0.4.0 - 2014-11-08
 
 - update org prefix to `r`
